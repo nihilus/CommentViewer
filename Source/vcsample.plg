@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vcsample - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dradu\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /Gz /MTd /W3 /Gm /GX /ZI /Od /I "D:\ida5sdk\ida5sdk\include\\" /D "_DEBUG" /D "__NT__" /D "__IDP__" /D MAXSTR=1024 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/vcsample.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Coding\VC Projects\Work\ShowComments\showcmt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dradu\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\dradu\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+ida.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/showcmt.pdb" /debug /machine:I386 /out:"C:\Program Files\IDA\plugins\showcmt.plw" /implib:"Debug/showcmt.lib" /pdbtype:sept /libpath:"..\..\libvc.w32" /export:PLUGIN 
+".\Debug\showcmt.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\dradu\LOCALS~1\Temp\RSPC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+showcmt.cpp
+D:\Coding\VC Projects\Work\ShowComments\showcmt.cpp(119) : warning C4101: 'seg' : unreferenced local variable
+Linking...
+   Creating library Debug/showcmt.lib and object Debug/showcmt.exp
+Creating command line "bscmake.exe /nologo /o"Debug/vcsample.bsc"  ".\Debug\showcmt.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+showcmt.plw - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
